@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_nav_home_to_nav_profile"
             app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings"
+            app:destination="@id/nav_settings" />
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
@@ -43,8 +46,12 @@
     </fragment>
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.test.diary4life.Activities.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_settings"
+        android:name="com.test.diary4life.Activities.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_nav_settings_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
 </navigation>
