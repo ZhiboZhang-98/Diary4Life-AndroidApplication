@@ -13,7 +13,7 @@
 
         <action
             android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
+            app:destination="@id/nav_about" />
         <action
             android:id="@+id/action_nav_home_to_nav_profile"
             app:destination="@id/nav_profile" />
@@ -22,10 +22,10 @@
             app:destination="@id/nav_settings" />
     </fragment>
     <fragment
-        android:id="@+id/nav_home_second"
-        android:name="com.test.diary4life.Activities.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
+        android:id="@+id/nav_about"
+        android:name="com.test.diary4life.Activities.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about">
         <action
             android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
             app:destination="@id/nav_home" />
