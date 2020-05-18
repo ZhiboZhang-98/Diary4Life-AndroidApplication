@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.test.diary4life.Activities.R;
+import com.test.diary4life.R;
 
 public class HomeFragment extends Fragment {
 

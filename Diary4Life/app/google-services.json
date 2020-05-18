@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "681682909215",
+    "firebase_url": "https://diary4life-9d930.firebaseio.com",
+    "project_id": "diary4life-9d930",
+    "storage_bucket": "diary4life-9d930.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681682909215:android:fe02e094d1815ec283fd2a",
+        "android_client_info": {
+          "package_name": "com.test.diary4life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681682909215-ufgveakmvi1407ph8sb26i33rbibbdtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMeDh1IDmV8Xd9m8qS0W8mf7qco7bNkXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681682909215-ufgveakmvi1407ph8sb26i33rbibbdtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
