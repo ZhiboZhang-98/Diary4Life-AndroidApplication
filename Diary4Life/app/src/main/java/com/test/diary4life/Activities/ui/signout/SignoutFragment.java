@@ -2,6 +2,7 @@ package com.test.diary4life.Activities.ui.signout;
 
 import androidx.lifecycle.ViewModelProviders;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,6 +13,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.test.diary4life.Activities.LoginActivity;
 import com.test.diary4life.R;
 
 public class SignoutFragment extends Fragment {
@@ -33,6 +36,11 @@ public class SignoutFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         mViewModel = ViewModelProviders.of(this).get(SignoutViewModel.class);
         // TODO: Use the ViewModel
+
+        FirebaseAuth.getInstance().signOut();
+        Intent loginActivity = new Intent(getActivity(), LoginActivity.class);
+        startActivity(loginActivity);
+
     }
 
 }
