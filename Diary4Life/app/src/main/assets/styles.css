@@ -1,0 +1,71 @@
+/*===========Header===========*/
+#logo{
+    height: 50px;
+}
+#account-logo{
+    height: 50px;
+}
+#timeline-container{
+    background-image: url("../images/valley.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 64px;
+}
+#content{
+    height: 88vh;
+}
+#applogo{
+    position: absolute;
+    top: 1%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#slogan{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#slogan h4{
+    font-size: 14px;
+    font-weight: bold;
+}
+#logged-in{
+    /*display: none;*/
+}
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navbar-nav.navbar-right{
+    position: absolute;
+    right: 0;
+}
+/*===========Body===========*/
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+  }
+.bodycontext img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table tbody tr:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+#sectionfeature{
+    background-color: aquamarine;
+}
