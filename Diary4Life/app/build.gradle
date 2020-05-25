@@ -41,6 +41,9 @@ dependencies {
     // Firebase Storage
     implementation 'com.google.firebase:firebase-storage:19.1.1'
 
+    // Firebase Database
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+
     // Glide Library
     // source: https://github.com/bumptech/glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
