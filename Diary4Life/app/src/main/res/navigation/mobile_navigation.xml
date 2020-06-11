@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_nav_home_to_nav_settings"
             app:destination="@id/nav_settings" />
+        <action
+            android:id="@+id/action_nav_home_to_signoutFragment"
+            app:destination="@id/nav_signout" />
     </fragment>
     <fragment
         android:id="@+id/nav_about"
@@ -52,6 +55,15 @@
         tools:layout="@layout/fragment_settings" >
         <action
             android:id="@+id/action_nav_settings_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_signout"
+        android:name="com.test.diary4life.Activities.ui.signout.SignoutFragment"
+        android:label="@string/menu_signout"
+        tools:layout="@layout/fragment_signout">
+        <action
+            android:id="@+id/action_signoutFragment_to_nav_home"
             app:destination="@id/nav_home" />
     </fragment>
 </navigation>
